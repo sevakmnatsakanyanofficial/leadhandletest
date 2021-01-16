@@ -23,13 +23,10 @@ class HandlerApplication extends Application
             /*
              * if data is not isset it means que is empty
              * So we need pause to wait for new messages
-             *
-             * But for this task we will stop loop
              */
             if (!$data) {
-                //sleep(1);
-                //continue;
-                break;
+                sleep(1);
+                continue;
             }
 
             // write data to log file

@@ -15,6 +15,11 @@ abstract class Application
 
     abstract public function run(): void;
 
+    /**
+     * Receives redis connection
+     *
+     * @return \Redis|null
+     */
     public function getRedis(): ?\Redis
     {
         try {

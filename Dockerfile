@@ -13,3 +13,7 @@ RUN ["apt", "update"]
 RUN ["apt", "install", "redis-server", "-y"]
 
 RUN ["apt", "install", "-y", "vim"]
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+RUN /usr/local/bin/composer install --prefer-dist

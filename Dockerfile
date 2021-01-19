@@ -12,8 +12,11 @@ RUN pecl install -o -f redis \
 RUN ["apt", "update"]
 RUN ["apt", "install", "redis-server", "-y"]
 
+RUN apt-get upgrade -y && \
+    apt-get install -y git
+
 RUN ["apt", "install", "-y", "vim"]
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN /usr/local/bin/composer install --prefer-dist
+RUN ["/usr/local/bin/composer", "install"]

@@ -8,7 +8,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "vladimir163/lead-generator": "dev-master"
+    "vladimir163/lead-generator": "*"
   },
   "autoload": {
     "psr-4": {

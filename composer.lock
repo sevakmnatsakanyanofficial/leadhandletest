@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc2a51dff0b0b5a7ffd8d0655f47d3a7",
+    "content-hash": "636b7dd251e3a68af263f08c41ebd24c",
     "packages": [
         {
             "name": "vladimir163/lead-generator",
@@ -42,9 +42,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "vladimir163/lead-generator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
